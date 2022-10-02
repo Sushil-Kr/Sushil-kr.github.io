@@ -176,25 +176,36 @@
                   <li>Experience working with automobile industry such as Maruti Suzuki, PSA Group(Stellantis), GoMechanic.</li>
                   <li>Excellent knowledge of iOS technologies. </li>
                   <li>Experience using SwiftUI,Swift,Objective C Cocoa Touch and other iOS frameworks.</li>
-                  <li>Highly proficient in object-oriented methodologies, design patterns, data structures, algorithms and quality coding skills, excellent debugging skills..</li>
+                  <li>Highly proficient in object-oriented methodologies, design patterns, data structures, algorithms and quality coding skills, excellent debugging skills.</li>
                   <li>Experience working with versioning and productivity tools (Git, Stash, JIRA etc.)</li>
                   <li>Client handling</li>
-                  <li>Experience doing user interface development/storyboards</li>
-                  <li>Knowledge of multi-threaded, asynchronous code</li>
+                  <li>Experience doing user interface development/storyboards.</li>
+                  <li>Knowledge of multi-threaded, asynchronous code,GCD and operation queue.</li>
                   <li>Added E-commerce functionality to existing applications.
-                  <li>Experience of effectively consuming web services (REST/SOAP) in iOS application</li>
-                  <li>Experience with different version of iOS and screen sizes</li>
-                  <li>Experience with offline storage, threading, and performance tuning</li>
+                  <li>Experience of effectively consuming web services (REST/SOAP) in iOS application.</li>
+                  <li>Experience with different version of iOS and screen sizes.</li>
+                  <li>Experience with offline storage, threading, and performance tuning.</li>
                   <li>Have published more than 10 iOS app in app store and knowledge of App Store publishing process.</li>
                   <li>Knowledge and Understanding of Apple's design principles and interface guidelines</li>
                   <li>Familiarity with cloud message APIs and push notifications.</li>
-                  <li>Proficient understanding of code versioning tools such as Git.</li>
+                  <li>Experience with offline storage, threading, and performance tuning.</li>
                   <li>Familiarity with web service integration (SOAP, REST, JSON, XML) to connect iOS applications to back-end services.</li>
+                  <li>Experience in Core Data and designing data model for application.
+</li>
+                  <li>Experience with offline storage, Like Core Data, SQLite.
+
+</li>
+                  <li>Collaborated with a team for architectural decisions.
+</li>
             <li>Implemented application code to the standards of Apple following Mobile Development Life cycle- Solid understanding on OOPS concepts.</li>
              <li>Worked with third-party libraries like Alamofire, Social media Facebook  and etc)</li>
-            <li>Knowledge in Firebase Real Time db and Custom Controls Push notifications will be a plus</li>
+            <li>Knowledge in Firebase Real Time db and Custom Controls Push notifications will be a plus.</li>
              <li>Very good at UI design using Storyboards applying techniques like Auto Layouts, Size Classes, Stackviews and SwiftUI and iOS design patterns like MVC/MVVM.</li>
-            <li>Strong Debugging skills ,App store deployment and certificate management knowledge.</li>
+            <li>Strong Debugging skills, Understanding of Google’s Map..</li>
+         <li>Familiarity with Apple app signing process to create and fetch required App certificates and profiles.
+</li>
+                  <li>Implement Crashlytics in application to easily find issues in the app.
+</li>
             </ul>
             </div>
 
@@ -515,7 +526,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              
+          <!--    
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
@@ -541,7 +552,36 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-            </form> 
+            </form> --->
+              
+<form id="form">
+  <div class="field">
+    <label for="from_name">from_name</label>
+    <input type="text" name="from_name" id="from_name">
+  </div>
+  <div class="field">
+    <label for="to_name">to_name</label>
+    <input type="text" name="to_name" id="to_name">
+  </div>
+  <div class="field">
+    <label for="message">message</label>
+    <input type="text" name="message" id="message">
+  </div>
+  <div class="field">
+    <label for="reply_to">reply_to</label>
+    <input type="text" name="reply_to" id="reply_to">
+  </div>
+
+  <input type="submit" id="button" value="Send Email" >
+</form>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('service_9y21fjj')
+</script>
+
               
           </div>
 
